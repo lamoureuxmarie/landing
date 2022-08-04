@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   line-height: 0.6;
-  box-shadow: 1px 1px 10px rgb(0 0 0 / 10%);
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 20%);
 }
 
 .hero h1, .hero p {
