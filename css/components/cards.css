@@ -1,0 +1,45 @@
+.cards-container {
+  padding: 80px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 15px;
+  background-color: #fff;
+  border: #181818 2px solid;
+  width: 350px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 10%);
+  flex-grow: 1;
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 380px;
+  border-radius: 4px;
+}
+
+.card-info {
+  padding-left: 15px;
+}
+
+.card-surf {
+  background-image: url('https://images.unsplash.com/photo-1489633908075-1c914e8ee5ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=493&q=80');
+}
+
+.card-food {
+  background-image: url('https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2346&q=80');
+}
+
+.card-hiking {
+  background-image: url('https://images.unsplash.com/photo-1622006899638-bdc811795b0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.card-ferias {
+  background-image: url('https://images.unsplash.com/photo-1533508680267-2f36a7de5527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80');
+}

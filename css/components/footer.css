@@ -1,0 +1,39 @@
+.footer {
+  height: 250px;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #598ded;
+  font-size: 16px;
+}
+
+.footer h2 {
+  color: #F7FBFA;
+}
+
+.footer form {
+  padding: 20px;
+}
+
+.footer form input {
+  padding: 10px 25px;
+}
+
+.footer form #form-submit {
+  background-color: #181818;
+  color: #F7FBFA;
+  border: 1px solid #181818;
+  font-weight: 700;
+}
+
+.footer form #form-submit:hover {
+  background-color: #292929;
+}
+
+@media only screen and (max-width: 720px) {
+  .footer {
+    text-align: center;
+  }
+}
