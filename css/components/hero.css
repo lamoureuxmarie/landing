@@ -31,4 +31,8 @@
     line-height: 0.8;
     text-align: center;
   }
+
+  .hero-content {
+    padding-left: 0;
+  }
 }
